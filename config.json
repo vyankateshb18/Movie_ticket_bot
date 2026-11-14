@@ -1,21 +1,15 @@
 {
-  "detector": "venue_date_format",
   "movie": "Ramayana",
   "event_code": "ET00523158",
-  "days_ahead": 7,
-  "venues": [
-    {
-      "code": "INPR",
-      "label": "INOX Phoenix Market City",
-      "format": "IMAX",
-      "priority": 1
-    },
-    {
-      "code": "INTO",
-      "label": "INOX",
-      "format": "BIGPIX",
-      "priority": 2
-    }
+  "language": "hindi",
+  "venue_codes": [
+    "INTO"
   ],
-  "min_references": 0
+  "format": "BIGPIX",
+  "window_days": 7,
+  "lookahead_start_days": 0,
+  "api_url_template": "PASTE_THE_EXACT_FETCH_XHR_REQUEST_URL_HERE (use {date}, {event_code}, or {language} only where they occur in the real URL)",
+  "booking_url_template": "https://in.bookmyshow.com/movies/chennai/ramayana/buytickets/ET00523158/{date}",
+  "movie_url": "https://in.bookmyshow.com/movies/chennai/ramayana/buytickets/ET00523158",
+  "request_timeout": 60
 }
