@@ -1,5 +1,9 @@
 {
   "available": false,
-  "checked_at": 1794690091,
-  "notified_dates": {}
+  "checked_at": 1794690960,
+  "notified_dates": {
+    "20261116": 1794690949,
+    "20261117": 1794690951,
+    "20261118": 1794690953
+  }
 }
