@@ -1,9 +1,9 @@
 {
-  "detector": "venue_date",
-  "movie": "Spider-Man: Brand New Day",
-  "requested_date": "20260730",
-  "venue_code": "INTO",
-  "venue_label": "INOX: The Marina Mall, OMR",
-  "url_template": "https://in.bookmyshow.com/movies/chennai/spiderman-brand-new-day/buytickets/ET00502600/{date}",
+  "detector": "bms_date",
+  "movie": "Ramayana",
+  "requested_date": "20261114",
+  "venue_code": ["INPR", "INTO" , "PVPZ"],
+  "venue_label": "INOX: LUXE Phoenix Market City, Velachery",
+  "url_template": "https://in.bookmyshow.com/movies/chennai/ramayana/buytickets/ET00523158/{date}",
   "min_references": 10
 }
