@@ -1,5 +1,5 @@
 {
-  "detector": "venue_date",
+  "detector": "bms_date",
   "movie": "Ramayana",
   "requested_date": "20261115",
   "venue_code": ["INPR", "INTO" , "PVPZ"],
