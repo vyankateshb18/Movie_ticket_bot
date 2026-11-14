@@ -5,9 +5,8 @@
     "INPR",
     "INTO"
   ],
-  "window_days": 7,
-  "lookahead_start_days": 0,
   "start_date": "2026-11-16",
+  "window_days": 7,
   "url_template": "https://in.bookmyshow.com/movies/chennai/ramayana/buytickets/ET00523158/{date}",
   "min_date_references": 10,
   "request_timeout": 60
