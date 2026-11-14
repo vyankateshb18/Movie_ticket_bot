@@ -1,15 +1,13 @@
 {
   "movie": "Ramayana",
-  "event_code": "ET00523158",
-  "language": "hindi",
+  "language": "Hindi",
   "venue_codes": [
+    "INPR",
     "INTO"
   ],
-  "format": "BIGPIX",
   "window_days": 7,
   "lookahead_start_days": 0,
-  "api_url_template": "PASTE_THE_EXACT_FETCH_XHR_REQUEST_URL_HERE (use {date}, {event_code}, or {language} only where they occur in the real URL)",
-  "booking_url_template": "https://in.bookmyshow.com/movies/chennai/ramayana/buytickets/ET00523158/{date}",
-  "movie_url": "https://in.bookmyshow.com/movies/chennai/ramayana/buytickets/ET00523158",
+  "url_template": "https://in.bookmyshow.com/movies/chennai/ramayana/buytickets/ET00523158/{date}",
+  "min_date_references": 10,
   "request_timeout": 60
 }
