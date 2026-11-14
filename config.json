@@ -2,7 +2,7 @@
   "detector": "bms_date",
   "movie": "Ramayana",
   "requested_date": "20261116",
-  "venue_code": ["INPR", "INTO" , "PVPZ"],
+  "venue_code": ["INPR", "INTO"],
   "venue_label": "INOX: LUXE Phoenix Market City, Velachery",
   "url_template": "https://in.bookmyshow.com/movies/chennai/ramayana/buytickets/ET00523158/{date}",
   "min_references": 10
