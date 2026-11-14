@@ -116,7 +116,10 @@ def main():
     cfg = load_config()
     state = read_json(STATE_PATH, {"notified_dates": {}})
     notified = state.setdefault("notified_dates", {})
-    start = date.today() + timedelta(days=int(cfg.get("lookahead_start_days", 0)))
+    # Fixed anchor date: never scan before it. After that date, the
+    # monitoring window rolls forward from the current date.
+    anchor = date.fromisoformat(cfg.get("start_date", date.today().isoformat()))
+    start = max(date.today(), anchor)
     errors = 0
     alerts = 0
 
